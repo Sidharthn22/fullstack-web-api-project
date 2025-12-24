@@ -1,0 +1,98 @@
+
+h1{
+    margin-top: 100px;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.users{
+    width: 380px;
+    min-height: 420px;
+
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.users:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+/* CARD CONTENT */
+.card{
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    color: white;
+    text-align: left;
+}
+
+/* USER DETAILS */
+.card h3{
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 4px;
+}
+
+/* DELETE BUTTON */
+.card button{
+    margin-top: 15px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: linear-gradient(135deg, #ff4d4d, #ff1a1a);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card button:hover{
+    background: linear-gradient(135deg, #e60000, #b30000);
+    transform: scale(1.05);
+}
+
+/* HORIZONTAL LINE */
+.card hr{
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+    margin-top: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+    .users{
+        width: 90%;
+    }
+
+    .card h3{
+        font-size: 14px;
+    }
+}
