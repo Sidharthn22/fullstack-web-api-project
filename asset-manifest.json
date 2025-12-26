@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fullstack-web-api-project/static/css/main.1edcb58b.css",
-    "main.js": "/fullstack-web-api-project/static/js/main.b94d75e2.js",
+    "main.js": "/fullstack-web-api-project/static/js/main.c539dfdb.js",
     "index.html": "/fullstack-web-api-project/index.html",
     "main.1edcb58b.css.map": "/fullstack-web-api-project/static/css/main.1edcb58b.css.map",
-    "main.b94d75e2.js.map": "/fullstack-web-api-project/static/js/main.b94d75e2.js.map"
+    "main.c539dfdb.js.map": "/fullstack-web-api-project/static/js/main.c539dfdb.js.map"
   },
   "entrypoints": [
     "static/css/main.1edcb58b.css",
-    "static/js/main.b94d75e2.js"
+    "static/js/main.c539dfdb.js"
   ]
 }
