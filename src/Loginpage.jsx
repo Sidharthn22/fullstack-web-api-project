@@ -15,7 +15,7 @@ export function Loginpage() {
            
             {val?<Adminlogin/>:<Userlogin/>}
            
-            <button onClick={f1} class="b1">{val?"Admin login":"user login"}</button>
+            <button onClick={f1} class="b1">{val?"user login":"Admin login"}</button>
 
         </div>
     )

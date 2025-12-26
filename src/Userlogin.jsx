@@ -19,8 +19,8 @@ function Userlogin() {
     return (
         <div class="m" >
             <form action="" className="sub1">
-                <input type="text" placeholder='enter admin email' ref={em} className="i"/>
-                <input type="text"  placeholder='entet admin pwd' ref={pw} className="i"/>
+                <input type="text" placeholder='enter user email' ref={em} className="i"/>
+                <input type="text"  placeholder='entet user pwd' ref={pw} className="i"/>
                 <br />
                 <button className='b2' onClick={f1}>LOGIN</button>
             </form>
